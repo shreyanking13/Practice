@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+
+int main()
+{
+   
+    char input;
+
+    do { 
+
+        cout << "Welcome to Learning lad"<<endl;
+        cout << "This is where you will find awesome video tutorials"<<endl;
+        cout << "enter x to exit or any other key to see this message again"<<endl;
+        cin  >> input;
+    }while( input != 'x' ) ;  
+    
+   
+    return 0;
+ 
+} 
+   
+   

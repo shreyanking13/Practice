@@ -1,0 +1,20 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+    void display(int x,int y,int z =10){
+
+        cout << "x is "<< x <<endl;
+        cout << "y is "<< y <<endl;
+        cout << "z is "<< z <<endl;
+    }
+    
+int main()
+{
+
+    display(20,30,50);
+ 
+return 0;
+ 
+}// if you change display(20,30,50) to display(20,30)
+
+then z becomes 10

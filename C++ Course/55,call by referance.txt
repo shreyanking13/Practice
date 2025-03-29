@@ -1,0 +1,47 @@
+#include <bits/stdc++.h>
+using namespace std;
+/* 5 
+
+21 23 54 65 76 */
+
+// call by reference
+//if ampersand is not used then new variable a will be created
+// if any element of a is changed , value of element in arr, in main function won't change
+//
+// to change any element in arr, in main function ,you must add ampersand
+void double_all_elemets(vector<int> &a, int n ) {
+
+
+    for( int i = 0 ; i <= n - 1 ; i++){
+       a[i]*= 2;
+
+    }    
+                   
+
+    
+
+}
+
+
+
+int main() 
+{   
+    int size ;
+    cin >> size ;
+    // dynamic array where size can be changed using push back and pop back
+    vector<int> arr(size);
+
+    for( int i = 0 ; i <= size - 1 ; i++){
+        cin >> arr[i];
+
+    }
+    double_all_elemets(arr, size);
+
+    for( int i = 0 ; i <= size - 1 ; i++){
+        cout << arr[i] << " " ;
+
+    }
+
+    return 0;
+
+}

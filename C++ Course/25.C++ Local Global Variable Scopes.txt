@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+    void display (); 
+   
+int x;
+int main()
+{
+
+  
+    
+   display(); 
+return 0;
+ 
+}
+
+    void display (){
+{
+
+    int p = 25;
+}
+        int a = 10 ,b = 20;
+        cout << p << endl;
+    }

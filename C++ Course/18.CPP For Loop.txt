@@ -1,0 +1,36 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+
+int main() 
+{
+
+    cout << "Start of for loop." << endl; 
+    // first inilization : int i = 0.
+    // then condition check : i <= 10 -  (0 <= 10) which is true .
+    // as condition is true ,execute for loop body.cout print  
+    // incriment : i++ - i = i + 1 .so i is 1 now.
+    // then condition check : i <= 10 - (1 <= 10) which is true .
+    // as condition is true ,execute for loop body.cout print  
+    // incriment : i++ - i = i + 1 .so i is 2 now.
+    // then condition check : i <= 10 - (2 <= 10) which is true .
+    // as condition is true ,execute for loop body.cout print  
+    // incriment : i++ - i = i + 1 .so i is 3 now.
+    // repeat the process.
+    // when i = 11 ,then condition check : i <= 10 - (11 <= 10) which is false . 
+    // when condition is false for loop ends 
+    for (int i = 0 ; i <= 10 ; i++) { 
+        cout << "Print : ";
+        cout << i << endl;
+
+
+    }
+
+    cout << "End of for loop." << endl;   
+    
+    return 0;
+}
+
+
+   

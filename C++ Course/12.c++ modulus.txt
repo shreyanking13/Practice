@@ -1,0 +1,3 @@
+int num1 = 200 , num2 =32;// the Percentage symbol is called the module //
+
+ cout << num1 % num2;

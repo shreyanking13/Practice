@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+int main() 
+{    
+    int a;
+    int *p;
+    a = 10;
+    p = &a;
+    printf(" address of p is  %d\n", a); 
+    *p = 12; // modifying the value in 'a' ,this concept is called  de referencing
+    printf(" value  %d\n", a );
+    int b;
+    *p = b;// will the address in b change to point b ? ans=no ,it will only change if you write a statement like p = &b and it will only store the value of b in a.
+    return 0;
+
+}

@@ -1,0 +1,47 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+
+int main()
+{
+    // decleareation and initialization
+    int i = 100;
+    // addition operator 
+    i += 3;// i = i +3
+    cout <<  i << endl; // 103
+    // substraction operator
+    i -= 5; // i = i - 5
+    cout << i << endl; // 98
+    // decrement by 1
+    i--; // i = i -1
+    cout << i << endl; // 97
+    // increment by 1
+    i++;// i = i + 1
+    cout << i << endl; // 98
+    // multiplation operator
+    i *= 10; // i = i * 10
+    cout << i << endl; // 980
+    // decleareation and initialization
+    int j = i / 2;
+    cout << i << " " << j << endl; // i = 980 j = 490
+    // division operator - gives quotientr( divident is i,divisor is 2,quotient is stored in i )
+    i /= 2; // i = i / 2
+    cout <<  i << " " <<  j << endl; // i =490  j = 490
+    // modulous operator- gives reminder( divident is i,divisor is 4,reminder is j )
+    j = i % 4;
+    cout <<  i << " " <<  j << endl; // i = 490 j = 2
+    // asignment 
+    j = 100;
+    cout <<  i << " " <<  j << endl; //  i = 490 j =100
+    // asignment
+    j = i;
+    cout <<  i << " " <<  j << endl;// i = 490 j = 490
+    // asignment
+    j = i + 4;
+    cout <<  i << " " <<  j << endl;// i =490  j =494
+    return 0;
+ 
+} 
+  
+   

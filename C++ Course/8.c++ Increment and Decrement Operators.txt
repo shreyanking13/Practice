@@ -1,0 +1,5 @@
+int a = 10; // you can put the --/++ on both sides of a //
+
+  cout << --a  << endl;
+
+  cout << a;

@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+
+int main() {
+int intVal;
+long long longval;
+char charVal;
+float floatVal;
+double doubleVal;
+
+
+cin >> intVal >> longval >> charVal >> floatVal >> doubleVal;
+cout << intVal << endl;
+cout << longval << endl;
+cout << charVal << endl;
+
+cout << fixed << setprecision(3) << floatVal << endl;
+cout << fixed << setprecision(9) << doubleVal << endl;
+
+return 0;
+}

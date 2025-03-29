@@ -1,0 +1,8 @@
+steps 
+step 1:  copy code to ide
+step 2:  figure out input
+step3:   run the code
+step 4:  verify if code is working
+step5:   copy input 
+step6:   save the code
+step7:practice the code without seeing

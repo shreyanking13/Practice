@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+
+int main()
+{   
+    int a = 5, b = 10;
+    
+    swap(a, b);
+    
+
+		cout << "Number A: " << a << endl;
+    cout << "Number B: " << b << endl;
+
+		return 0;
+}   

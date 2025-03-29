@@ -1,0 +1,12 @@
+int age = 12 ; 
+  if ( age <= 20 ) { 
+
+        cout << " you are young";
+} 
+   else if ( age <= 40 ) {
+
+    cout << "you are in middle age ";
+   }else {
+
+    cout << " you are an old guy ";
+   }

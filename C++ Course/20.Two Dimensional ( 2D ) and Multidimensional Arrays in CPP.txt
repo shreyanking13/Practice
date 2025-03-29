@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+
+int main()
+{
+    int marks[2][6] = { 
+
+                        {22,56,45,12,32,54} ,
+                        {23,13,89,98,97,86}
+    } ;
+    marks [0] [2]; 
+
+return 0;
+ 
+}
+

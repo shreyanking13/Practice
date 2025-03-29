@@ -1,0 +1,34 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+    void display();
+
+int main()
+{
+
+    
+
+     int main ()
+     {   
+
+        display ();
+        display ();
+        display ();
+
+
+
+     }
+     void display () { 
+
+    cout << "welcome to functions"<<endl;    
+
+     } 
+return 0;
+ 
+}
+
+void display () { 
+
+cout << "welcome to functions"<<endl;    
+
+ }

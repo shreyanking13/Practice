@@ -1,0 +1,10 @@
+int age = 17;    
+    
+    if ( age <= 17 ) {
+
+        cout << " You cant vote so go home" << endl;
+    }
+
+    if ( age >= 17 ) {
+
+        cout << " you can vote . So go and vote" << endl;

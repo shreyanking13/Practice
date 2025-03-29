@@ -1,0 +1,6 @@
+
+    int mark;
+    cout << "Enter your mark";
+    cin >> mark;
+
+    mark >= 35 ? cout << " you are passed in exam " :  cout << " you are failed in exam ";

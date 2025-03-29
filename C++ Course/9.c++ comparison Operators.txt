@@ -1,0 +1,13 @@
+int date;
+    cout << "enter the date" <<endl;
+    cin >> date;
+
+    if ( date >= 1 ) {
+
+        if ( date <= 31 ){
+            cout << " date is valid.";
+            if( date == 6 ) // you can write !=
+                cout << "yes 6 is special";
+        }
+
+        }

@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+int main() 
+{   
+    int a = 5;
+    // p's data type is not int , it is int* which is 
+    // address of integer.&a gives address of a variable. 
+    int* p = &a; 
+    // p gives the address of a.so , *p gives the value of a. 
+    cout << *p << endl;
+    // through *p value of a can be changed . 
+    *p = 8 ;
+    cout << a <<endl;
+    // int** means address of address of integer and here the 
+    //it is storing the address of p .
+    int** q = &p;
+    cout << *q << endl;
+    cout << **q << endl;
+        return 0;
+
+}

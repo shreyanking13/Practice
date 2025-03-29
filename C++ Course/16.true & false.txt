@@ -1,0 +1,6 @@
+bool human = true ;  // you can also write false
+    if ( !human) {
+        cout << "you are not human";
+    }else { 
+    cout << " you are human";
+    }  
