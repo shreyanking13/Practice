@@ -1,0 +1,52 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+//https://leetcode.com/problems/two-sum/
+
+/*4 9
+2 7 11 15
+*/
+
+
+vector<int> twoSum(vector<int>& nums, int target) {
+    int n = nums.size();
+    for( int i  = 0 ; i < n ; i++ ){
+        for( int j = i + 1 ; j < n ;  j++){
+            if( nums[i] + nums[j] == target){
+
+                return {i,j};
+            }
+
+
+        }
+
+
+
+
+    }
+
+ return { };   
+} 
+
+int main() 
+{   
+    int size,target;
+    cin >> size >> target ;
+    vector<int> nums(size);
+    for (int i = 0; i < size ; ++i)
+    {   cin >> nums[i];
+      
+    }
+
+    vector<int> index = twoSum(nums , target);
+    for (int i = 0; i < 2; ++i)
+    {
+       cout << index[i] << " ";
+    }
+        
+
+
+    return 0;
+
+}
+
