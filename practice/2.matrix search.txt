@@ -1,0 +1,177 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+/*5 3 732
+12 23 34
+23 34 45 
+24 64 73 
+52 64 87
+19 28 37
+*/
+
+bool search( vector <vector <int> > arr , int x , int col , int row ){
+    for (int i = 0; i < row ; ++i){
+        for (int j = 0; j < col; ++j){
+            if ( arr[i][j]  == x )
+            {
+                return true;
+            }
+        
+            
+        }
+    
+        
+    }
+
+
+    return false;
+
+}
+
+
+int main() 
+{   
+    int x , row , col ;
+    cin >> row >> col >> x;
+    vector <vector <int> > arr(row, vector <int> (col));
+    for (int i = 0; i < row  ; ++i){
+        for (int j = 0; j < col; ++j)
+        {
+            cin >> arr[i][j];
+        }
+
+
+    }
+    if (search( arr , x , col , row ))
+    {
+        cout << " x found ";
+    }else{
+        cout << " x not found ";
+
+    }
+
+    
+
+
+    return 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+       
+
+
+
+
+
+
+
+
