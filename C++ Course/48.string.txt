@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+
+
+int main() 
+{   
+    string name = "anil";
+
+    string lastname = "shetty";
+
+    string fullname;
+
+    fullname = name + " " + lastname;
+
+    if ( name == "anil" )
+        cout << "name mached";
+    else
+        cout << "name mismached";
+
+   
+
+
+
+
+
+    return 0;
+
+}

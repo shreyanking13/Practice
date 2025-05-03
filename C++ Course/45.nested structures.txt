@@ -1,0 +1,43 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+struct address {
+        int house_no;
+        string street_name;
+        
+    };
+
+
+struct student {
+        string name;
+        int rollno;
+        address addr;
+        
+    };
+
+    
+
+
+int main() 
+{  
+    student  anil ;   
+    display(anil);
+
+    show(&anil);  
+    return 0;
+
+}
+void display(student s){
+    cout << s.rollno << endl;\\\\\\\\\\\\\\\\\\\\
+    cout << s.sex << endl;
+    cout << s.age << endl;
+
+
+}
+void show(student *s){
+    cout << s->rollno << endl;
+    cout << s->sex << endl;
+    cout << s->age << endl;
+
+
+}

@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+ 
+
+
+  
+
+int main() 
+{   
+    int age = 24;
+    bool human = true;
+    int *ageptr;
+    bool *humanptr;
+    ageptr = &ageptr;
+    humanptr = &human;
+    cout << age << " -->" << ageptr << endl;
+    cout << human << " -->" << humanptr << endl;
+    cout << age << " -->" << ageptr << endl;
+    cout << human << " -->" << humanptr << endl;
+
+
+    return 0;
+}
