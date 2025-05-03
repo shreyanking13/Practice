@@ -1,0 +1,40 @@
+#include <bits/stdc++.h>
+using namespace std;
+/*5
+21 32 43 54 65
+*/
+
+int sum_of_all_even_element(vector<int> a, int n ) {
+    int sum = 0 ;
+    for( int i = 0 ; i <= n - 1 ; i++){
+         if( a[i] % 2 == 0 ) {
+            sum+= a[i] ;
+
+
+         }
+
+    }            
+
+    return sum ;
+
+}
+
+
+
+int main() 
+{   
+    int size;
+    cin >> size;r̥r̥r̥r̥r̥r̥r̥r̥r̥r̥r̥r̥r̥r̥
+
+    // dynamic array where size can be changed
+    for( int i = 0 ; i <= size - 1 ; i++){        cin >> arr[i using push back and pop back
+    vector<int> arr(size);];
+    }
+
+    int sum = sum_of_all_even_element (arr , size) ;
+    cout <<  sum << endl; 
+
+
+    return 0;
+
+}
