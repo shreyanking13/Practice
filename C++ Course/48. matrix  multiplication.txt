@@ -1,0 +1,64 @@
+	#include <bits/stdc++.h>
+using namespace std;
+ 
+
+
+  
+
+int main() 
+{   
+    int ma,na ;
+    cin >> ma >> na ;
+    int a[ma][na] ;
+    for( int i = 0 ; i < ma  ; i++  ) { 
+       for( int j = 0 ; j <  na ; j++  ) {
+            cin >> a[i][j];
+
+       }  
+    }
+    int mb,nb ;
+    cin >> mb >> nb ;
+    int b[mb][nb];
+     for( int i = 0 ; i < mb  ; i++  ) { 
+       for( int j = 0 ; j <  nb ; j++  ) {
+            cin >> b[i][j];
+
+       }  
+    }
+    if( na != mb  ){
+        cout << " multiplication not possible. ";
+        return 0 ;
+
+
+    }
+    // a(ma, na) * b(mb, nb) = c(ma , nb ) 
+    int c[ma][nb];
+    // c00 = a00 * b00 + a01 * b10 + a02 * b20 
+    // c21 = a20 * b01 + a21 * b11 + a22 * b21
+    // c12 = a10 * b02 + a11 * b12 + a12 * b22
+    // formula : 
+    // cij = ai0 * b0j + ai1 * b1j + ai2 * b2j        
+    for( int i = 0 ; i < ma  ; i++  ) { 
+       for( int j = 0 ; j <  nb ; j++  ) {
+            // c[i][j] is inicialized with 0
+            c[i][j] = 0;
+          for( int k = 0 ; k <  mb ; k++  ) {
+            // when k = 0 ,then c[i][j] is incremented by a[i][0] * b[0][j]
+            // when k = 1 ,then c[i][j] is incremented by a[i][1] * b[1][j] 
+            // when k = 2 ,then c[i][j] is incremented by a[i][2] * b[2][j]      
+            c[i][j] += a[i][k] * b[k][j];
+          }           
+
+       }  
+    }
+     for( int i = 0 ; i < ma  ; i++  ) { 
+       for( int j = 0 ; j <  nb ; j++  ) {
+            cout << c[i][j] << " ";
+
+       } 
+       cout << endl; 
+    }
+
+
+    return 0;
+}

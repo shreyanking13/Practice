@@ -22,7 +22,7 @@ int main()
     // multiplation operator
     i *= 10; // i = i * 10
     cout << i << endl; // 980
-    // decleareation and initialization
+    // declaration and initialization
     int j = i / 2;
     cout << i << " " << j << endl; // i = 980 j = 490
     // division operator - gives quotientr( divident is i,divisor is 2,quotient is stored in i )
